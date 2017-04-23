@@ -19,7 +19,50 @@
                    :w="item.w"
                    :h="item.h"
                    :i="item.i">
-            {{item.i}}
+ <!--           Item: {{item.i}} !-->
+          <div>
+          <!--
+              <md-card class="md-primary" md-theme="orange" md-with-hover>
+                <md-card-header>
+                  <md-card-header-text>
+                    <div class="md-title">Title here</div>
+                    <div class="md-subhead">Subtitle here</div>
+                  </md-card-header-text>
+
+                  <md-card-media>
+                    <img src="src/assets/avatar-2.jpg" alt="People">
+                  </md-card-media>
+                </md-card-header>
+
+                <md-card-actions>
+                  <md-button>Action</md-button>
+                  <md-button>Action</md-button>
+                </md-card-actions>
+              </md-card>
+          !-->
+              <md-card class="md-primary" md-theme="blue" md-with-hover>
+                <md-card-media md-ratio="16:9">
+                  <img src="src/assets/card-sky.jpg" alt="People">
+                </md-card-media>
+
+                <md-ink-ripple></md-ink-ripple>
+
+                <md-card-actions>
+                  <md-button class="md-icon-button">
+                    <md-icon>favorite</md-icon>
+                  </md-button>
+
+                  <md-button class="md-icon-button">
+                    <md-icon>bookmark</md-icon>
+                  </md-button>
+
+                  <md-button class="md-icon-button">
+                    <md-icon>share</md-icon>
+                  </md-button>
+                </md-card-actions>
+              </md-card>
+
+          </div>
         </grid-item>
     </grid-layout>
 
@@ -64,7 +107,7 @@
     .main-content{
       padding: 0 10px;
       margin-top: 20px;
-      
+
     }
 
     .vue-grid-item{

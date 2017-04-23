@@ -9,6 +9,11 @@
 
           <h2 class="md-title" style="flex: 1">Green Safety</h2>
 
+
+          <md-button class="md-icon-button">
+            <md-icon>more_vert</md-icon>
+          </md-button>
+
           <md-button class="md-icon-button">
             <md-icon>view_module</md-icon>
           </md-button>
@@ -25,61 +30,60 @@
           </md-toolbar>
           <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
 
-          <md-list>
-            <md-list-item href="localhost:8080/#/Users">
-              <md-icon>move_to_inbox</md-icon> <span>Inbox</span>
-            </md-list-item>
+          <div class="phone-viewport">
+            <md-list>
+              <md-list-item>
+                <md-icon>whatshot</md-icon>
+                <span>News</span>
 
-            <md-list-item>
-              <md-icon>send</md-icon> <span>Sent Mail</span>
-            </md-list-item>
+                <md-list-expand>
+                  <md-list>
+                    <md-list-item class="md-inset">World</md-list-item>
+                    <md-list-item class="md-inset">Americas</md-list-item>
+                    <md-list-item class="md-inset">Europe</md-list-item>
+                  </md-list>
+                </md-list-expand>
+              </md-list-item>
 
-            <md-list-item>
-              <md-icon>delete</md-icon> <span>Trash</span>
-            </md-list-item>
+              <md-list-item>
+                <md-icon>videogame_asset</md-icon>
+                <span>Games</span>
 
-            <md-list-item>
-              <md-icon>error</md-icon> <span>Spam</span>
+                <md-list-expand>
+                  <md-list>
+                    <md-list-item class="md-inset">Console</md-list-item>
+                    <md-list-item class="md-inset">PC</md-list-item>
+                    <md-list-item class="md-inset">Phone</md-list-item>
+                  </md-list>
+                </md-list-expand>
+              </md-list-item>
 
-              <md-divider class="md-inset"></md-divider>
-            </md-list-item>
+              <md-list-item>
+                <md-icon>video_library</md-icon>
+                <span>Video</span>
 
-            <md-list-item>
-              <md-avatar>
-                <img src="https://placeimg.com/40/40/people/5" alt="People">
-              </md-avatar>
+                <md-list-expand>
+                  <md-list>
+                    <md-list-item class="md-inset">Humor</md-list-item>
+                    <md-list-item class="md-inset">Music</md-list-item>
+                    <md-list-item class="md-inset">Movies</md-list-item>
+                    <md-list-item class="md-inset">TV Shows</md-list-item>
+                  </md-list>
+                </md-list-expand>
+              </md-list-item>
 
-              <span>Abbey Christansen</span>
+              <md-list-item href="http://localhost:8080/#/Users">
+                <md-icon>users</md-icon>
+                <span>Users</span>
+              </md-list-item>
 
-              <md-button class="md-icon-button md-list-action">
-                <md-icon class="md-primary">chat_bubble</md-icon>
-              </md-button>
-            </md-list-item>
+              <md-list-item href="http://localhost:8080/#/">
+                <md-icon>home</md-icon>
+                <span>Home</span>
+              </md-list-item>
 
-            <md-list-item>
-              <md-avatar>
-                <img src="https://placeimg.com/40/40/people/1" alt="People">
-              </md-avatar>
-
-              <span>Alex Nelson</span>
-
-              <md-button class="md-icon-button md-list-action">
-                <md-icon class="md-primary">chat_bubble</md-icon>
-              </md-button>
-            </md-list-item>
-
-            <md-list-item>
-              <md-avatar>
-                <img src="https://placeimg.com/40/40/people/6" alt="People">
-              </md-avatar>
-
-              <span>Mary Johnson</span>
-
-              <md-button class="md-icon-button md-list-action">
-                <md-icon>chat_bubble</md-icon>
-              </md-button>
-            </md-list-item>
-          </md-list>
+            </md-list>
+          </div>
 
           </div>
       </md-sidenav>

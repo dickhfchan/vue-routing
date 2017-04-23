@@ -10,8 +10,9 @@ module.exports = {
   },
   externals: {
     'VueGridLayout' : 'vue-grid-layout' ,
-//    'LinearGauge' : 'vue-canvas-gauges',
+    'LinearGauge' : 'vue-canvas-gauges',
     'Plotly' : 'plotly'
+
   },
   module: {
     rules: [
