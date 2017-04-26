@@ -10,9 +10,8 @@ module.exports = {
   },
   externals: {
     'VueGridLayout' : 'vue-grid-layout' ,
-    'LinearGauge' : 'vue-canvas-gauges',
+//    'LinearGauge' : 'vue-canvas-gauges',
     'Plotly' : 'plotly'
-
   },
   module: {
     rules: [
@@ -22,13 +21,13 @@ module.exports = {
         options: {
           loaders: {
           }
-          // other vue-loader options go here    
+          // other vue-loader options go here
         }
       },
 //      {
 //        test: /\.css$/,
 //        loader: 'style-loader!css-loader'
-//      },       
+//      },
       {
         test: /\.js$/,
         loader: 'babel-loader',
@@ -46,7 +45,9 @@ module.exports = {
 
   resolve: {
     alias: {
-      'vue$': 'vue/dist/vue.esm.js'
+      'vue$': 'vue/dist/vue.esm.js',
+      // third-party
+      'plotly.js': 'plotly.js/dist/plotly'
     }
   },
   devServer: {

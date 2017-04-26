@@ -18,10 +18,11 @@
                    :y="item.y"
                    :w="item.w"
                    :h="item.h"
-                   :i="item.i">
+                   :i="item.i"
+                   >                   
  <!--           Item: {{item.i}} !-->
-          <div>
-          <!--
+          <div >
+          
               <md-card class="md-primary" md-theme="orange" md-with-hover>
                 <md-card-header>
                   <md-card-header-text>
@@ -39,7 +40,7 @@
                   <md-button>Action</md-button>
                 </md-card-actions>
               </md-card>
-          !-->
+         
               <md-card class="md-primary" md-theme="blue" md-with-hover>
                 <md-card-media md-ratio="16:9">
                   <img src="src/assets/card-sky.jpg" alt="People">
@@ -61,6 +62,9 @@
                   </md-button>
                 </md-card-actions>
               </md-card>
+
+               
+         
 
           </div>
         </grid-item>

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 .DS_Store
 node_modules/
 dist/
 npm-debug.log
 yarn-error.log
+=======
+node_modules/
+npm-debug.log
+>>>>>>> de6204a830b53a876af3e0b40b15af034773076b
